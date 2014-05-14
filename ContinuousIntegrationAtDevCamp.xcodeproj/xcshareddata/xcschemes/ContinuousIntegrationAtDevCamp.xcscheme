@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9ABED6091923F8340070BC20"
-               BuildableName = "ContinuousIntegrationAtDevCampTests.xctest"
-               BlueprintName = "ContinuousIntegrationAtDevCampTests"
+               BlueprintIdentifier = "9ABED62919240C230070BC20"
+               BuildableName = "FunctionalTests.xctest"
+               BlueprintName = "FunctionalTests"
                ReferencedContainer = "container:ContinuousIntegrationAtDevCamp.xcodeproj">
             </BuildableReference>
          </TestableReference>

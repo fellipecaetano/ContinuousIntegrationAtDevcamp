@@ -14,16 +14,16 @@
 		9ABED5FF1923F8340070BC20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABED5FE1923F8340070BC20 /* main.m */; };
 		9ABED6031923F8340070BC20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABED6021923F8340070BC20 /* AppDelegate.m */; };
 		9ABED6051923F8340070BC20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED6041923F8340070BC20 /* Images.xcassets */; };
-		9ABED60C1923F8340070BC20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED60B1923F8340070BC20 /* XCTest.framework */; };
-		9ABED60D1923F8340070BC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F21923F8340070BC20 /* Foundation.framework */; };
-		9ABED60E1923F8340070BC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F61923F8340070BC20 /* UIKit.framework */; };
-		9ABED6161923F8340070BC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED6141923F8340070BC20 /* InfoPlist.strings */; };
-		9ABED6181923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABED6171923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.m */; };
 		9ABED6251923F8850070BC20 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED6241923F8850070BC20 /* MainStoryboard.storyboard */; };
+		9ABED62B19240C230070BC20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED60B1923F8340070BC20 /* XCTest.framework */; };
+		9ABED62C19240C230070BC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F21923F8340070BC20 /* Foundation.framework */; };
+		9ABED62D19240C230070BC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F61923F8340070BC20 /* UIKit.framework */; };
+		9ABED63319240C230070BC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED63119240C230070BC20 /* InfoPlist.strings */; };
+		9ABED63519240C230070BC20 /* FunctionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABED63419240C230070BC20 /* FunctionalTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9ABED60F1923F8340070BC20 /* PBXContainerItemProxy */ = {
+		9ABED63719240C230070BC20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9ABED5E71923F8340070BC20 /* Project object */;
 			proxyType = 1;
@@ -44,12 +44,13 @@
 		9ABED6011923F8340070BC20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ABED6021923F8340070BC20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9ABED6041923F8340070BC20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9ABED60A1923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContinuousIntegrationAtDevCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABED60B1923F8340070BC20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9ABED6131923F8340070BC20 /* ContinuousIntegrationAtDevCampTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContinuousIntegrationAtDevCampTests-Info.plist"; sourceTree = "<group>"; };
-		9ABED6151923F8340070BC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9ABED6171923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContinuousIntegrationAtDevCampTests.m; sourceTree = "<group>"; };
 		9ABED6241923F8850070BC20 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9ABED62A19240C230070BC20 /* FunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABED63019240C230070BC20 /* FunctionalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunctionalTests-Info.plist"; sourceTree = "<group>"; };
+		9ABED63219240C230070BC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9ABED63419240C230070BC20 /* FunctionalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionalTests.m; sourceTree = "<group>"; };
+		9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunctionalTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +64,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABED6071923F8340070BC20 /* Frameworks */ = {
+		9ABED62719240C230070BC20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABED60C1923F8340070BC20 /* XCTest.framework in Frameworks */,
-				9ABED60E1923F8340070BC20 /* UIKit.framework in Frameworks */,
-				9ABED60D1923F8340070BC20 /* Foundation.framework in Frameworks */,
+				9ABED62B19240C230070BC20 /* XCTest.framework in Frameworks */,
+				9ABED62D19240C230070BC20 /* UIKit.framework in Frameworks */,
+				9ABED62C19240C230070BC20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				9ABED5F81923F8340070BC20 /* ContinuousIntegrationAtDevCamp */,
-				9ABED6111923F8340070BC20 /* ContinuousIntegrationAtDevCampTests */,
+				9ABED62E19240C230070BC20 /* FunctionalTests */,
 				9ABED5F11923F8340070BC20 /* Frameworks */,
 				9ABED5F01923F8340070BC20 /* Products */,
 			);
@@ -90,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				9ABED5EF1923F8340070BC20 /* ContinuousIntegrationAtDevCamp.app */,
-				9ABED60A1923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.xctest */,
+				9ABED62A19240C230070BC20 /* FunctionalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,24 +129,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9ABED6111923F8340070BC20 /* ContinuousIntegrationAtDevCampTests */ = {
-			isa = PBXGroup;
-			children = (
-				9ABED6171923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.m */,
-				9ABED6121923F8340070BC20 /* Supporting Files */,
-			);
-			path = ContinuousIntegrationAtDevCampTests;
-			sourceTree = "<group>";
-		};
-		9ABED6121923F8340070BC20 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9ABED6131923F8340070BC20 /* ContinuousIntegrationAtDevCampTests-Info.plist */,
-				9ABED6141923F8340070BC20 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		9ABED6221923F85B0070BC20 /* App Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +144,25 @@
 				9ABED6241923F8850070BC20 /* MainStoryboard.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9ABED62E19240C230070BC20 /* FunctionalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ABED63419240C230070BC20 /* FunctionalTests.m */,
+				9ABED62F19240C230070BC20 /* Supporting Files */,
+			);
+			path = FunctionalTests;
+			sourceTree = "<group>";
+		};
+		9ABED62F19240C230070BC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABED63019240C230070BC20 /* FunctionalTests-Info.plist */,
+				9ABED63119240C230070BC20 /* InfoPlist.strings */,
+				9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,22 +185,22 @@
 			productReference = 9ABED5EF1923F8340070BC20 /* ContinuousIntegrationAtDevCamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9ABED6091923F8340070BC20 /* ContinuousIntegrationAtDevCampTests */ = {
+		9ABED62919240C230070BC20 /* FunctionalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9ABED61E1923F8340070BC20 /* Build configuration list for PBXNativeTarget "ContinuousIntegrationAtDevCampTests" */;
+			buildConfigurationList = 9ABED63919240C230070BC20 /* Build configuration list for PBXNativeTarget "FunctionalTests" */;
 			buildPhases = (
-				9ABED6061923F8340070BC20 /* Sources */,
-				9ABED6071923F8340070BC20 /* Frameworks */,
-				9ABED6081923F8340070BC20 /* Resources */,
+				9ABED62619240C230070BC20 /* Sources */,
+				9ABED62719240C230070BC20 /* Frameworks */,
+				9ABED62819240C230070BC20 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9ABED6101923F8340070BC20 /* PBXTargetDependency */,
+				9ABED63819240C230070BC20 /* PBXTargetDependency */,
 			);
-			name = ContinuousIntegrationAtDevCampTests;
-			productName = ContinuousIntegrationAtDevCampTests;
-			productReference = 9ABED60A1923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.xctest */;
+			name = FunctionalTests;
+			productName = FunctionalTests;
+			productReference = 9ABED62A19240C230070BC20 /* FunctionalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +212,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = DevCamp;
 				TargetAttributes = {
-					9ABED6091923F8340070BC20 = {
+					9ABED62919240C230070BC20 = {
 						TestTargetID = 9ABED5EE1923F8340070BC20;
 					};
 				};
@@ -228,7 +230,7 @@
 			projectRoot = "";
 			targets = (
 				9ABED5EE1923F8340070BC20 /* ContinuousIntegrationAtDevCamp */,
-				9ABED6091923F8340070BC20 /* ContinuousIntegrationAtDevCampTests */,
+				9ABED62919240C230070BC20 /* FunctionalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,11 +246,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABED6081923F8340070BC20 /* Resources */ = {
+		9ABED62819240C230070BC20 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABED6161923F8340070BC20 /* InfoPlist.strings in Resources */,
+				9ABED63319240C230070BC20 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,21 +266,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ABED6061923F8340070BC20 /* Sources */ = {
+		9ABED62619240C230070BC20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABED6181923F8340070BC20 /* ContinuousIntegrationAtDevCampTests.m in Sources */,
+				9ABED63519240C230070BC20 /* FunctionalTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9ABED6101923F8340070BC20 /* PBXTargetDependency */ = {
+		9ABED63819240C230070BC20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9ABED5EE1923F8340070BC20 /* ContinuousIntegrationAtDevCamp */;
-			targetProxy = 9ABED60F1923F8340070BC20 /* PBXContainerItemProxy */;
+			targetProxy = 9ABED63719240C230070BC20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -291,10 +293,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9ABED6141923F8340070BC20 /* InfoPlist.strings */ = {
+		9ABED63119240C230070BC20 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9ABED6151923F8340070BC20 /* en */,
+				9ABED63219240C230070BC20 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -398,7 +400,7 @@
 			};
 			name = Release;
 		};
-		9ABED61F1923F8340070BC20 /* Debug */ = {
+		9ABED63A19240C230070BC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ContinuousIntegrationAtDevCamp.app/ContinuousIntegrationAtDevCamp";
@@ -408,19 +410,19 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Prefix.pch";
+				GCC_PREFIX_HEADER = "FunctionalTests/FunctionalTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ContinuousIntegrationAtDevCampTests/ContinuousIntegrationAtDevCampTests-Info.plist";
+				INFOPLIST_FILE = "FunctionalTests/FunctionalTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		9ABED6201923F8340070BC20 /* Release */ = {
+		9ABED63B19240C230070BC20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ContinuousIntegrationAtDevCamp.app/ContinuousIntegrationAtDevCamp";
@@ -430,8 +432,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Prefix.pch";
-				INFOPLIST_FILE = "ContinuousIntegrationAtDevCampTests/ContinuousIntegrationAtDevCampTests-Info.plist";
+				GCC_PREFIX_HEADER = "FunctionalTests/FunctionalTests-Prefix.pch";
+				INFOPLIST_FILE = "FunctionalTests/FunctionalTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -458,11 +460,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9ABED61E1923F8340070BC20 /* Build configuration list for PBXNativeTarget "ContinuousIntegrationAtDevCampTests" */ = {
+		9ABED63919240C230070BC20 /* Build configuration list for PBXNativeTarget "FunctionalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9ABED61F1923F8340070BC20 /* Debug */,
-				9ABED6201923F8340070BC20 /* Release */,
+				9ABED63A19240C230070BC20 /* Debug */,
+				9ABED63B19240C230070BC20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
