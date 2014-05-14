@@ -1,18 +1,19 @@
 //
-//  FunctionalTests.m
-//  FunctionalTests
+//  ExampleTestCase.m
+//  ContinuousIntegrationAtDevCamp
 //
 //  Created by Mac Mini on 14/05/14.
 //  Copyright (c) 2014 DevCamp. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import <KIF.h>
 
-@interface FunctionalTests : XCTestCase
+@interface ExampleTestCase : KIFTestCase
 
 @end
 
-@implementation FunctionalTests
+@implementation ExampleTestCase
 
 - (void)setUp
 {
@@ -28,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTAssertTrue(1, @"1 should be true");  
+    [tester fail];
 }
 
 @end
