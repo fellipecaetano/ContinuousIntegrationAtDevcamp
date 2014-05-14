@@ -20,6 +20,7 @@
 		9ABED62D19240C230070BC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F61923F8340070BC20 /* UIKit.framework */; };
 		9ABED63319240C230070BC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED63119240C230070BC20 /* InfoPlist.strings */; };
 		9AC4871619241215003F5CDC /* ExampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4871519241215003F5CDC /* ExampleTestCase.m */; };
+		9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC487181924270B003F5CDC /* GalleryViewController.m */; };
 		D595CB8B05DD45BBBC8928E2 /* libPods-FunctionalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8989A2643A44D57BC9A15FA /* libPods-FunctionalTests.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		9ABED63219240C230070BC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunctionalTests-Prefix.pch"; sourceTree = "<group>"; };
 		9AC4871519241215003F5CDC /* ExampleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTestCase.m; sourceTree = "<group>"; };
+		9AC487171924270B003F5CDC /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		9AC487181924270B003F5CDC /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 		B8989A2643A44D57BC9A15FA /* libPods-FunctionalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AEEC84BAB649BFBC68896E /* Pods-FunctionalTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunctionalTests.xcconfig"; path = "Pods/Pods-FunctionalTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +119,7 @@
 		9ABED5F81923F8340070BC20 /* ContinuousIntegrationAtDevCamp */ = {
 			isa = PBXGroup;
 			children = (
+				9AC4871A19242710003F5CDC /* View Controllers */,
 				9ABED6231923F8620070BC20 /* Storyboards */,
 				9ABED6221923F85B0070BC20 /* App Delegates */,
 				9ABED6041923F8340070BC20 /* Images.xcassets */,
@@ -169,6 +173,15 @@
 				9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC4871A19242710003F5CDC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AC487171924270B003F5CDC /* GalleryViewController.h */,
+				9AC487181924270B003F5CDC /* GalleryViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +317,7 @@
 			files = (
 				9ABED6031923F8340070BC20 /* AppDelegate.m in Sources */,
 				9ABED5FF1923F8340070BC20 /* main.m in Sources */,
+				9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

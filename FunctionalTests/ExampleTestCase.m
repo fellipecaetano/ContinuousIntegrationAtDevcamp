@@ -29,7 +29,6 @@
 
 - (void)testExample
 {
-    [tester fail];
 }
 
 @end
