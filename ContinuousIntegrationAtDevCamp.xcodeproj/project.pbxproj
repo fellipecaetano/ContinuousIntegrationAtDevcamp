@@ -19,7 +19,6 @@
 		9ABED62C19240C230070BC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F21923F8340070BC20 /* Foundation.framework */; };
 		9ABED62D19240C230070BC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F61923F8340070BC20 /* UIKit.framework */; };
 		9ABED63319240C230070BC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED63119240C230070BC20 /* InfoPlist.strings */; };
-		9AC4871619241215003F5CDC /* ExampleTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4871519241215003F5CDC /* ExampleTestCase.m */; };
 		9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC487181924270B003F5CDC /* GalleryViewController.m */; };
 		D595CB8B05DD45BBBC8928E2 /* libPods-FunctionalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8989A2643A44D57BC9A15FA /* libPods-FunctionalTests.a */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		9ABED63019240C230070BC20 /* FunctionalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunctionalTests-Info.plist"; sourceTree = "<group>"; };
 		9ABED63219240C230070BC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunctionalTests-Prefix.pch"; sourceTree = "<group>"; };
-		9AC4871519241215003F5CDC /* ExampleTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTestCase.m; sourceTree = "<group>"; };
 		9AC487171924270B003F5CDC /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
 		9AC487181924270B003F5CDC /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 		B8989A2643A44D57BC9A15FA /* libPods-FunctionalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FunctionalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				9ABED62F19240C230070BC20 /* Supporting Files */,
-				9AC4871519241215003F5CDC /* ExampleTestCase.m */,
 			);
 			path = FunctionalTests;
 			sourceTree = "<group>";
@@ -325,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC4871619241215003F5CDC /* ExampleTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

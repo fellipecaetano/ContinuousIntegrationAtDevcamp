@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GalleryViewController : UIViewController
+@interface GalleryViewController : UIViewController <UICollectionViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *galleryItemsView;
 
 @end
