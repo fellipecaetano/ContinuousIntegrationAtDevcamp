@@ -10,9 +10,11 @@
 
 @interface GalleryItem : NSObject
 
-@property (nonatomic, copy) NSString* imageUrl;
+@property (nonatomic, copy) NSString* imageURL;
 @property (nonatomic, copy) NSString* title;
 
 - (instancetype) initWithImageUrl: (NSString*) imageUrl title: (NSString*) title;
+
++ (NSArray*) defaultItems;
 
 @end

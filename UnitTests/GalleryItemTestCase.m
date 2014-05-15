@@ -27,7 +27,7 @@
 - (void)testIfObjectsAreCreatedProperly {
     GalleryItem* item = [[GalleryItem alloc] initWithImageUrl: @"http://image.com/url"
                                                         title: @"My gallery item"];
-    XCTAssertEqualObjects(item.imageUrl, @"http://image.com/url");
+    XCTAssertEqualObjects(item.imageURL, @"http://image.com/url");
     XCTAssertEqualObjects(item.title, @"My gallery item");
 }
 
