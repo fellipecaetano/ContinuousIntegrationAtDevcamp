@@ -35,7 +35,7 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"GaleryItemCell" forIndexPath: indexPath];   
+    UICollectionViewCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"GaleryItemCell" forIndexPath: indexPath];
     return cell;
 }
 
