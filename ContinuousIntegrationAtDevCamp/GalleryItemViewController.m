@@ -9,6 +9,9 @@
 #import "GalleryItemViewController.h"
 
 @interface GalleryItemViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end
 
 @implementation GalleryItemViewController
@@ -23,6 +26,7 @@
 {
     [super viewDidLoad];
     self.view.accessibilityLabel = @"GalleryItemDetailsView";
+    self.titleLabel.accessibilityLabel = @"TitleLabel";
 }
 
 - (void)didReceiveMemoryWarning
