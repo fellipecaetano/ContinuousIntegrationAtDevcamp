@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class GalleryItem;
+
 @interface GalleryItemViewController : UIViewController
+
+@property (weak, nonatomic) GalleryItem* presentedItem;
 
 @end

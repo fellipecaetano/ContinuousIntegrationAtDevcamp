@@ -7,6 +7,7 @@
 //
 
 #import "GalleryItemViewController.h"
+#import "GalleryItem.h"
 
 @interface GalleryItemViewController ()
 
@@ -27,6 +28,7 @@
     [super viewDidLoad];
     self.view.accessibilityLabel = @"GalleryItemDetailsView";
     self.titleLabel.accessibilityLabel = @"TitleLabel";
+    self.titleLabel.text = self.presentedItem.title;
 }
 
 - (void)didReceiveMemoryWarning

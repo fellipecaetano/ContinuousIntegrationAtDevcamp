@@ -12,6 +12,7 @@
 #import "GalleryItem.h"
 #import <UIImageView+AFNetworking.h>
 #import "GalleryItemCell.h"
+#import "GalleryItemViewController.h"
 
 @interface GalleryViewController ()
 @end
@@ -40,9 +41,16 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     GalleryItemCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier: @"GaleryItemCell" forIndexPath: indexPath];
-    GalleryItem* item = [GalleryItem defaultItems][indexPath.row];
+    GalleryItem* item = [GalleryItem defaultItems][indexPath.item];
     [cell.imageView setImageWithURL: [NSURL URLWithString: item.imageURL]];
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    NSIndexPath* selectedIndex = self.galleryItemsView.indexPathsForSelectedItems.firstObject;
+    GalleryItem* selectedItem = [GalleryItem defaultItems][selectedIndex.item];
+    GalleryItemViewController* destination = segue.destinationViewController;
+    destination.presentedItem = selectedItem;
 }
 
 @end

@@ -32,13 +32,13 @@
     
     NSIndexSet* cellIndexes = [NSIndexSet indexSetWithIndexesInRange: NSMakeRange(0, 9)];
     [cellIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
-        NSIndexPath* indexPath = [NSIndexPath indexPathForRow: idx inSection: 0];
+        NSIndexPath* indexPath = [NSIndexPath indexPathForItem: idx inSection: 0];
         [tester waitForCellAtIndexPath: indexPath inCollectionViewWithAccessibilityIdentifier: accessibilityLabel];
     }];
 }
 
 - (void) testIfTouchingAnItemBringsItsDetails {
-    NSIndexPath* itemIndex = [NSIndexPath indexPathForRow: 3 inSection: 0];
+    NSIndexPath* itemIndex = [NSIndexPath indexPathForItem: 3 inSection: 0];
     [tester tapItemAtIndexPath: itemIndex inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
     [tester waitForViewWithAccessibilityLabel: @"GalleryItemDetailsView"];
     [tester waitForViewWithAccessibilityLabel: @"TitleLabel"];
