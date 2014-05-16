@@ -10,7 +10,6 @@
 #import <KIF.h>
 
 @interface GalleryTestCase : KIFTestCase
-
 @end
 
 @implementation GalleryTestCase
@@ -27,16 +26,14 @@
 
 - (void) testIfAllItemsAppear
 {
-    [tester waitForViewWithAccessibilityLabel: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 0 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 1 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 2 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 3 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 4 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 5 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 6 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 7 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
-    [tester waitForCellAtIndexPath: [NSIndexPath indexPathForRow: 8 inSection: 0] inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
+    NSString* accessibilityLabel = @"GalleryItemsView";
+    [tester waitForViewWithAccessibilityLabel: accessibilityLabel];
+    
+    NSIndexSet* cellIndexes = [NSIndexSet indexSetWithIndexesInRange: NSMakeRange(0, 9)];
+    [cellIndexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
+        NSIndexPath* indexPath = [NSIndexPath indexPathForRow: idx inSection: 0];
+        [tester waitForCellAtIndexPath: indexPath inCollectionViewWithAccessibilityIdentifier: accessibilityLabel];
+    }];
 }
 
 @end

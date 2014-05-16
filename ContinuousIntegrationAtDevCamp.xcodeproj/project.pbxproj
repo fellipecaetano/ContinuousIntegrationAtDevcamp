@@ -202,8 +202,8 @@
 		9ABED62E19240C230070BC20 /* FunctionalTests */ = {
 			isa = PBXGroup;
 			children = (
+				B3984E24192564310003EF58 /* Cases */,
 				9ABED62F19240C230070BC20 /* Supporting Files */,
-				B3984E02192543F70003EF58 /* GalleryTestCase.m */,
 			);
 			path = FunctionalTests;
 			sourceTree = "<group>";
@@ -262,6 +262,14 @@
 				B3984E22192556F90003EF58 /* GalleryItemCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		B3984E24192564310003EF58 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				B3984E02192543F70003EF58 /* GalleryTestCase.m */,
+			);
+			name = Cases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
