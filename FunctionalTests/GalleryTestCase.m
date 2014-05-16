@@ -8,6 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <KIF.h>
+#import <KIF/UIApplication-KIFAdditions.h>
+#import <KIF/UIAccessibilityElement-KIFAdditions.h>
 
 @interface GalleryTestCase : KIFTestCase
 @end
@@ -36,10 +38,19 @@
 }
 
 - (void) testIfTouchingAnItemBringsItsDetails {
-    NSIndexPath* itemIndex = [NSIndexPath indexPathForRow: 0 inSection: 0];
+    NSIndexPath* itemIndex = [NSIndexPath indexPathForRow: 3 inSection: 0];
     [tester tapItemAtIndexPath: itemIndex inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
     [tester waitForViewWithAccessibilityLabel: @"GalleryItemDetailsView"];
     [tester waitForViewWithAccessibilityLabel: @"TitleLabel"];
+    
+    [tester runBlock:^KIFTestStepResult(NSError *__autoreleasing *error) {
+        UIAccessibilityElement* labelContainer = [[UIApplication sharedApplication] accessibilityElementMatchingBlock: ^BOOL(UIAccessibilityElement * element) {
+            return [element.accessibilityLabel isEqualToString: @"TitleLabel"];
+        }];
+        UILabel* titleLabel = (UILabel*) [UIAccessibilityElement viewContainingAccessibilityElement: labelContainer];
+        KIFTestCondition([titleLabel.text isEqualToString: @"Gallery Item #4"], error, @"");
+        return KIFTestStepResultSuccess;
+    }];
 }
 
 @end
