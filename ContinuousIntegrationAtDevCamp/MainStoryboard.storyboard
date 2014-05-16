@@ -114,6 +114,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="feP-7I-22h"/>
                     <connections>
+                        <outlet property="imageView" destination="TpB-La-cIy" id="Vab-yq-xX4"/>
                         <outlet property="titleLabel" destination="hwY-CU-3pu" id="bf8-Tn-ohf"/>
                     </connections>
                 </viewController>
