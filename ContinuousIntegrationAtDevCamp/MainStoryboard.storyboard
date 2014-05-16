@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="916" y="83"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery Item View Controller-->
         <scene sceneID="fiA-Ha-HEy">
             <objects>
-                <viewController id="x78-p8-ZZ4" sceneMemberID="viewController">
+                <viewController id="x78-p8-ZZ4" customClass="GalleryItemViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cbf-9U-6La"/>
                         <viewControllerLayoutGuide type="bottom" id="6Of-pa-aq6"/>

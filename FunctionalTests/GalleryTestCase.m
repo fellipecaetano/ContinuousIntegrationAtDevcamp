@@ -24,8 +24,7 @@
     [super tearDown];
 }
 
-- (void) testIfAllItemsAppear
-{
+- (void) testIfAllItemsAppear {
     NSString* accessibilityLabel = @"GalleryItemsView";
     [tester waitForViewWithAccessibilityLabel: accessibilityLabel];
     
@@ -34,6 +33,12 @@
         NSIndexPath* indexPath = [NSIndexPath indexPathForRow: idx inSection: 0];
         [tester waitForCellAtIndexPath: indexPath inCollectionViewWithAccessibilityIdentifier: accessibilityLabel];
     }];
+}
+
+- (void) testIfTouchingAnItemBringsItsDetails {
+    NSIndexPath* itemIndex = [NSIndexPath indexPathForRow: 0 inSection: 0];
+    [tester tapItemAtIndexPath: itemIndex inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
+    [tester waitForViewWithAccessibilityLabel: @"GalleryItemDetailsView"];
 }
 
 @end

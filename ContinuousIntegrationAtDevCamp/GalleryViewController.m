@@ -27,7 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.galleryItemsView registerClass: [GalleryItemCell class] forCellWithReuseIdentifier: [GalleryItemCell reuseIdentifier]];
+    [self.galleryItemsView registerClass: [GalleryItemCell class]
+              forCellWithReuseIdentifier: [GalleryItemCell reuseIdentifier]];
     self.galleryItemsView.accessibilityLabel = @"GalleryItemsView";
     self.galleryItemsView.accessibilityIdentifier = @"GalleryItemsView";
 }

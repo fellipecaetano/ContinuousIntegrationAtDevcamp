@@ -20,6 +20,7 @@
 		9ABED62D19240C230070BC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED5F61923F8340070BC20 /* UIKit.framework */; };
 		9ABED63319240C230070BC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9ABED63119240C230070BC20 /* InfoPlist.strings */; };
 		9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC487181924270B003F5CDC /* GalleryViewController.m */; };
+		B3428EC7192699FC00CD0F09 /* GalleryItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3428EC6192699FC00CD0F09 /* GalleryItemViewController.m */; };
 		B3984E03192543F70003EF58 /* GalleryTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3984E02192543F70003EF58 /* GalleryTestCase.m */; };
 		B3984E0719254CF40003EF58 /* GalleryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3984E0619254CF40003EF58 /* GalleryItem.m */; };
 		B3984E0D19254D810003EF58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED60B1923F8340070BC20 /* XCTest.framework */; };
@@ -70,6 +71,8 @@
 		9ABED63619240C230070BC20 /* FunctionalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunctionalTests-Prefix.pch"; sourceTree = "<group>"; };
 		9AC487171924270B003F5CDC /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
 		9AC487181924270B003F5CDC /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		B3428EC5192699FC00CD0F09 /* GalleryItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryItemViewController.h; sourceTree = "<group>"; };
+		B3428EC6192699FC00CD0F09 /* GalleryItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryItemViewController.m; sourceTree = "<group>"; };
 		B3984E02192543F70003EF58 /* GalleryTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryTestCase.m; sourceTree = "<group>"; };
 		B3984E0519254CF40003EF58 /* GalleryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryItem.h; sourceTree = "<group>"; };
 		B3984E0619254CF40003EF58 /* GalleryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryItem.m; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 			children = (
 				9AC487171924270B003F5CDC /* GalleryViewController.h */,
 				9AC487181924270B003F5CDC /* GalleryViewController.m */,
+				B3428EC5192699FC00CD0F09 /* GalleryItemViewController.h */,
+				B3428EC6192699FC00CD0F09 /* GalleryItemViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3428EC7192699FC00CD0F09 /* GalleryItemViewController.m in Sources */,
 				9ABED6031923F8340070BC20 /* AppDelegate.m in Sources */,
 				9ABED5FF1923F8340070BC20 /* main.m in Sources */,
 				9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */,
