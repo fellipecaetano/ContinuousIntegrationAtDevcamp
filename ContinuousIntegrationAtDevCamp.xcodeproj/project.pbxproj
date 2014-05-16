@@ -359,6 +359,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = DevCamp;
 				TargetAttributes = {
+					9ABED5EE1923F8340070BC20 = {
+						DevelopmentTeam = JZ2QTNWLCN;
+					};
 					9ABED62919240C230070BC20 = {
 						TestTargetID = 9ABED5EE1923F8340070BC20;
 					};
@@ -628,10 +631,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fellipe Santiago Scarpa Caetano (966DG24324)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Prefix.pch";
 				INFOPLIST_FILE = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CA3708B5-EDAF-43E6-A592-B244D44E3510";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -642,10 +647,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dextra Consultoria e Servicos em Informatica (JZ2QTNWLCN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Prefix.pch";
 				INFOPLIST_FILE = "ContinuousIntegrationAtDevCamp/ContinuousIntegrationAtDevCamp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CA3708B5-EDAF-43E6-A592-B244D44E3510";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
