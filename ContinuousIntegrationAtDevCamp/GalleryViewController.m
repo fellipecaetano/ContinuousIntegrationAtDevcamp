@@ -32,6 +32,7 @@
               forCellWithReuseIdentifier: [GalleryItemCell reuseIdentifier]];
     self.galleryItemsView.accessibilityLabel = @"GalleryItemsView";
     self.galleryItemsView.accessibilityIdentifier = @"GalleryItemsView";
+    self.title = @"Gallery";
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {

@@ -32,6 +32,7 @@
     self.titleLabel.accessibilityLabel = @"TitleLabel";
     self.imageView.accessibilityLabel = @"ImageView";
     self.titleLabel.text = self.presentedItem.title;
+    self.title = self.presentedItem.title;
     [self.imageView setImageWithURL: [NSURL URLWithString: self.presentedItem.imageURL]];
 }
 

@@ -29,10 +29,12 @@
 
 - (void) testIfTouchingAnItemBringsItsDetails {
     NSIndexPath* itemIndex = [NSIndexPath indexPathForItem: 4 inSection: 0];
+    NSString* title = @"Gallery Item #5";
     [tester tapItemAtIndexPath: itemIndex inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
     [tester waitForViewWithAccessibilityLabel: @"GalleryItemDetailsView"];
+    [tester waitForViewWithAccessibilityLabel: title];
     [tester waitForViewWithAccessibilityLabel: @"TitleLabel"];
-    [tester checkText: @"Gallery Item #5" ofViewWithAccessibilityLabel: @"TitleLabel"];
+    [tester checkText: title ofViewWithAccessibilityLabel: @"TitleLabel"];
     [tester waitForViewWithAccessibilityLabel: @"ImageView"];
     [tester tapViewWithAccessibilityLabel: @"Back"];
 }
