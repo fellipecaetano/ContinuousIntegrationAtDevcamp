@@ -1,3 +1,6 @@
 language: objective-c
-rvm: 1.9.3
+rvm: 2.0.0
+before_install:
+    - export LANG=en_US.UTF-8
+    - gem update cocoapods
 script: xctool -workspace ContinuousIntegrationAtDevCamp.xcworkspace -scheme ContinuousIntegrationAtDevCamp -sdk iphonesimulator7.1 build test -freshInstall
