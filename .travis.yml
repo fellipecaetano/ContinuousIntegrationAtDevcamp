@@ -3,4 +3,6 @@ rvm: 2.0.0
 before_install:
     - export LANG=en_US.UTF-8
     - gem update cocoapods
-script: xctool -workspace ContinuousIntegrationAtDevCamp.xcworkspace -scheme ContinuousIntegrationAtDevCamp -sdk iphonesimulator7.1 build test -freshInstall
+    - brew update
+    - brew upgrade xctool
+script: xctool -workspace ContinuousIntegrationAtDevCamp.xcworkspace -scheme ContinuousIntegrationAtDevCamp -sdk iphonesimulator7.1 clean build test -freshInstall
