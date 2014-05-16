@@ -1,4 +1,4 @@
 ContinuousIntegrationAtDevcamp
 ==============================
 
-Mixing some well-know opensource tools to create a reliable continuous integration environment for iOS apps.
+Mixing some well-known opensource tools to create a reliable continuous integration environment for iOS apps.
