@@ -28,7 +28,7 @@
 }
 
 - (void) testIfTouchingAnItemBringsItsDetails {
-    NSIndexPath* itemIndex = [NSIndexPath indexPathForItem: 4 inSection: 0];
+    NSIndexPath* itemIndex = [NSIndexPath indexPathForItem: 3 inSection: 0];
     NSString* title = @"Gallery Item #5";
     [tester tapItemAtIndexPath: itemIndex inCollectionViewWithAccessibilityIdentifier: @"GalleryItemsView"];
     [tester waitForViewWithAccessibilityLabel: @"GalleryItemDetailsView"];
