@@ -1,0 +1,3 @@
+language: objective-c
+rvm: 1.9.3
+script: xctool -workspace ContinuousIntegrationAtDevCamp.xcworkspace -scheme ContinuousIntegrationAtDevCamp -sdk iphonesimulator7.1 build test -freshInstall
