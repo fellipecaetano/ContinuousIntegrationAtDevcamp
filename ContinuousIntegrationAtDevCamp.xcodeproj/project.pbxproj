@@ -22,6 +22,7 @@
 		9AC487191924270B003F5CDC /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC487181924270B003F5CDC /* GalleryViewController.m */; };
 		B3428EC7192699FC00CD0F09 /* GalleryItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3428EC6192699FC00CD0F09 /* GalleryItemViewController.m */; };
 		B3428ECB1926A4E400CD0F09 /* KIFUITestActor+TextInspection.m in Sources */ = {isa = PBXBuildFile; fileRef = B3428ECA1926A4E400CD0F09 /* KIFUITestActor+TextInspection.m */; };
+		B3428ED0192716DF00CD0F09 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B3428ECF192716DE00CD0F09 /* .travis.yml */; };
 		B3984E03192543F70003EF58 /* GalleryTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = B3984E02192543F70003EF58 /* GalleryTestCase.m */; };
 		B3984E0719254CF40003EF58 /* GalleryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3984E0619254CF40003EF58 /* GalleryItem.m */; };
 		B3984E0D19254D810003EF58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABED60B1923F8340070BC20 /* XCTest.framework */; };
@@ -76,6 +77,7 @@
 		B3428EC6192699FC00CD0F09 /* GalleryItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryItemViewController.m; sourceTree = "<group>"; };
 		B3428EC91926A4E400CD0F09 /* KIFUITestActor+TextInspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFUITestActor+TextInspection.h"; sourceTree = "<group>"; };
 		B3428ECA1926A4E400CD0F09 /* KIFUITestActor+TextInspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFUITestActor+TextInspection.m"; sourceTree = "<group>"; };
+		B3428ECF192716DE00CD0F09 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		B3984E02192543F70003EF58 /* GalleryTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryTestCase.m; sourceTree = "<group>"; };
 		B3984E0519254CF40003EF58 /* GalleryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryItem.h; sourceTree = "<group>"; };
 		B3984E0619254CF40003EF58 /* GalleryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryItem.m; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		9ABED5E61923F8340070BC20 = {
 			isa = PBXGroup;
 			children = (
+				B3428ECF192716DE00CD0F09 /* .travis.yml */,
 				B3428ECC1926FAD500CD0F09 /* Scripts */,
 				9ABED5F81923F8340070BC20 /* ContinuousIntegrationAtDevCamp */,
 				9ABED62E19240C230070BC20 /* FunctionalTests */,
@@ -420,6 +423,7 @@
 			files = (
 				9ABED6251923F8850070BC20 /* MainStoryboard.storyboard in Resources */,
 				9ABED5FD1923F8340070BC20 /* InfoPlist.strings in Resources */,
+				B3428ED0192716DF00CD0F09 /* .travis.yml in Resources */,
 				9ABED6051923F8340070BC20 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
