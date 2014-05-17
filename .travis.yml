@@ -17,7 +17,7 @@ after_script:
 env:
   global:
   - APP_NAME="ContinuousIntegrationAtDevCamp"
-  - IDENTITY_NAME="iPhone Distribution: Dextra Consultoria e Servicos em Informatica (JZ2QTNWLCN)"
+  - 'IDENTITY_NAME="iPhone Distribution: Dextra Consultoria e Servicos em Informatica (JZ2QTNWLCN)"'
   - PROFILE_NAME="ContinuousIntegrationAtDevCamp_AdHoc"
   - secure: oboYJ75uE7PO2e6D+VAHwU21jhgh5IRPtJnYLEP3zsi6JbR3bTWm5Y8vVYKvQ7rXe4SkuJOLH04Q9FrkwtNrV3vAoeBX3gZw5lC2DFYr1As0+AVEleY0O8HS+C82iAnRPwGqtx44rVTJi7RU1VQmBSKkM8wuT3TjHeImksQDEVg=
   - secure: QWk6Nvw8SSyhS1tfeV4ibeRKSacJxMVlrpNJLSVJ8/WptfY3jLIhNoR68HMrbuFcWK2T6N+jiW12ZKKB4Z6MEzM9K7eiD4LIX7SH3NXGJVE003D2nHBvJV5G6VMpHx52kLYKrBOVN2xUddjNWyjg2xpaSb2LNBOfVa+oU+DApZc=
