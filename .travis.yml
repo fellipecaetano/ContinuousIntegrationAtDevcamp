@@ -9,8 +9,8 @@ script: xctool -workspace ContinuousIntegrationAtDevCamp.xcworkspace -scheme Con
   -sdk iphonesimulator7.1 clean build test -freshInstall
 env:
   global:
-    - APP_NAME="ContinuousIntegrationAtDevCamp"
-    - IDENTITY_NAME="iPhone Distribution: Dextra Consultoria e Servicos em Informatica (JZ2QTNWLCN)"
-    - PROFILE_NAME="ContinuousIntegrationAtDevCamp_AdHoc"
-    secure: yVfZ0XDSyHC+J9nHO1Q01vr6ja4XB1ZXi42f/ltwV5LBmN1f7BqhG21Cgk3Hxxyy7ESiI3n5pUJ0p8lRwlI5OaXeoCCW2XbgTIRad2ZTEey4Yb3K52+rPKrZS+w+2G9p03tDOrQ1kh1DBrSWYybk96ChfDIC/4te9rI+WclZJow=
-
+  - APP_NAME="ContinuousIntegrationAtDevCamp"
+  - IDENTITY_NAME="iPhone Distribution: Dextra Consultoria e Servicos em Informatica (JZ2QTNWLCN)"
+  - PROFILE_NAME="ContinuousIntegrationAtDevCamp_AdHoc"
+  - secure: oboYJ75uE7PO2e6D+VAHwU21jhgh5IRPtJnYLEP3zsi6JbR3bTWm5Y8vVYKvQ7rXe4SkuJOLH04Q9FrkwtNrV3vAoeBX3gZw5lC2DFYr1As0+AVEleY0O8HS+C82iAnRPwGqtx44rVTJi7RU1VQmBSKkM8wuT3TjHeImksQDEVg=
+  - secure: QWk6Nvw8SSyhS1tfeV4ibeRKSacJxMVlrpNJLSVJ8/WptfY3jLIhNoR68HMrbuFcWK2T6N+jiW12ZKKB4Z6MEzM9K7eiD4LIX7SH3NXGJVE003D2nHBvJV5G6VMpHx52kLYKrBOVN2xUddjNWyjg2xpaSb2LNBOfVa+oU+DApZc=
