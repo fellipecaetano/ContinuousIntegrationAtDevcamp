@@ -130,6 +130,7 @@
 		9ABED5E61923F8340070BC20 = {
 			isa = PBXGroup;
 			children = (
+				B3428ECC1926FAD500CD0F09 /* Scripts */,
 				9ABED5F81923F8340070BC20 /* ContinuousIntegrationAtDevCamp */,
 				9ABED62E19240C230070BC20 /* FunctionalTests */,
 				B3984E1019254D810003EF58 /* UnitTests */,
@@ -243,6 +244,29 @@
 				B3428ECA1926A4E400CD0F09 /* KIFUITestActor+TextInspection.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		B3428ECC1926FAD500CD0F09 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B3428ECD1926FB2300CD0F09 /* travis */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		B3428ECD1926FB2300CD0F09 /* travis */ = {
+			isa = PBXGroup;
+			children = (
+				B3428ECE1926FB3500CD0F09 /* certs */,
+			);
+			path = travis;
+			sourceTree = "<group>";
+		};
+		B3428ECE1926FB3500CD0F09 /* certs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = certs;
 			sourceTree = "<group>";
 		};
 		B3984E0419254CE10003EF58 /* Models */ = {
