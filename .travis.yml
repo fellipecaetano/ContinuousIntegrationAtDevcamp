@@ -6,14 +6,14 @@ before_install:
 - brew update
 - brew upgrade xctool
 before_script:
-- ./Scripts/travis/setup_keychain.sh
-script: 
-- ./Scripts/travis/test.sh
+- "./Scripts/travis/setup_keychain.sh"
+script:
+- "./Scripts/travis/test.sh"
 after_success:
-- ./Scripts/travis/update_bundle.sh
-- ./Scripts/travis/create_package.sh
+- "./Scripts/travis/update_bundle.sh"
+- "./Scripts/travis/create_package.sh"
 after_script:
-- ./Scripts/travis/clear_keychain.sh
+- "./Scripts/travis/clear_keychain.sh"
 env:
   global:
   - APP_NAME="ContinuousIntegrationAtDevCamp"
@@ -21,3 +21,5 @@ env:
   - PROFILE_NAME="ContinuousIntegrationAtDevCamp_AdHoc"
   - secure: oboYJ75uE7PO2e6D+VAHwU21jhgh5IRPtJnYLEP3zsi6JbR3bTWm5Y8vVYKvQ7rXe4SkuJOLH04Q9FrkwtNrV3vAoeBX3gZw5lC2DFYr1As0+AVEleY0O8HS+C82iAnRPwGqtx44rVTJi7RU1VQmBSKkM8wuT3TjHeImksQDEVg=
   - secure: QWk6Nvw8SSyhS1tfeV4ibeRKSacJxMVlrpNJLSVJ8/WptfY3jLIhNoR68HMrbuFcWK2T6N+jiW12ZKKB4Z6MEzM9K7eiD4LIX7SH3NXGJVE003D2nHBvJV5G6VMpHx52kLYKrBOVN2xUddjNWyjg2xpaSb2LNBOfVa+oU+DApZc=
+  - secure: vWqnWCKiVxBN6+mL6GuoRwwXlpGbY1k66tGCP6sAApS+3ucdD1s4TBQra+zcERUyAZ20tcm/162LNOohJGPTGuMj0yneX9OjC2pT0uOOxKzyTNg2kXWVFScIy00ChKWqIN3ZGLlr2ZN2d4LPpB4IAmayy68v7fHedfsr5oYXHfY=
+  - secure: DkNEuEEXEJLvEl0k66t/wRjR6J/izxzzAqlzV7ODwJje3gowRGSLI28bYXQDEwQ7AQu9/PXnlCLz8cDyrq+EZ6NTM43cnCTcuqa6JcioTPsSbFzlvMuC2V8BEjBPGBzPG+QTBowRE1XEU9glWQkLvXYLanDazCkq/vP0UmAyuMM=
