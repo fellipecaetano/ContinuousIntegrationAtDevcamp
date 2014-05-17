@@ -12,6 +12,7 @@ script:
 after_success:
 - "./Scripts/travis/update_bundle.sh"
 - "./Scripts/travis/create_package.sh"
+- "./Scripts/travis/distribute.sh"
 after_script:
 - "./Scripts/travis/clear_keychain.sh"
 env:
